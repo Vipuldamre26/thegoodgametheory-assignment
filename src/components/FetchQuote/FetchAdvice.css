@@ -1,0 +1,78 @@
+.fetch-advice{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fetch-advice .fetch-main{
+    width: 39rem;
+    height: 24rem;
+    background-color: rgba(255, 255, 255, 0.192);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+}
+
+.fetch-advice .fetch-main p{
+    background:none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.fetch-advice .fetch-main .icon1{
+    font-size: 1.2rem;
+    background:none;
+
+}
+
+.fetch-advice .fetch-main .id{
+    background:none;
+    color:rgb(47, 255, 71);
+}
+
+.fetch-advice .fetch-main .id p{
+    background:none;
+    color:rgb(47, 255, 71);
+    font-size: 1.4rem;
+}
+
+.fetch-advice .fetch-main .icon2{
+    height: 4rem;
+    width: 4rem;
+    background:none;
+    position: absolute;
+    bottom: -33px;
+    left: 46%;
+    font-size: 2rem;
+    color: black;
+    background-color: rgb(47, 255, 71);
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fetch-advice .fetch-main .icon2:hover{
+    box-shadow: 1px 1px 5px 1px rgb(47, 255, 71);
+    cursor: pointer;
+}
+
+.fetch-advice .fetch-main .icon2 .icon{
+    background:none;
+    /* position: absolute;
+    bottom: -10px;
+    left: 50%;
+    font-size: 2rem;
+    color: black; */
+    
+}
